@@ -179,7 +179,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-slate-100">
       <header className="bg-blue-700 text-white p-4">
-        <h1>Users</h1>
+        <h1>User</h1>
         <UserCard name="Damian" age={22} course="FSD" />
         <UserCard name="Bruce" age={35} course="FSD"/>
         <Greeting name="Nip"></Greeting>
