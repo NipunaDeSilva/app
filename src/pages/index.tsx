@@ -3,7 +3,7 @@
 import { useRouter } from "next/router";
 import UserCard from "@/components/UserCard";
 import React, { useEffect, useState } from "react";
-import { fetchUsers } from "./api/userApi";
+import { fetchUsers } from "../api/userApi";
 import { useAppContext } from "@/context/AppContext";
 import Link from "next/link";
 import Greeting from "@/components/Greeting";
